@@ -10,12 +10,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View2.fxml"));
         primaryStage.setTitle("Database with Next/Previous Btn");
         primaryStage.setScene(new Scene(root, 500, 275));
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
